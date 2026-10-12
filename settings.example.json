@@ -1,5 +1,5 @@
 {
-  "_comment": "Persistent settings file. Remembers your last-used parameters, preferences, and session statistics.",
+  "_comment": "Persistent settings template. Remembers last-used parameters, preferences, and session statistics.",
   "last_used_parameters": {
     "port": 9223,
     "concurrency": 12,

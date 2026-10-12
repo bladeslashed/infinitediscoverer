@@ -35,6 +35,12 @@ venv/
 ENV/
 env/
 
+# Local personal configuration files
+instances_config.json
+settings.json
+*.local.json
+
+
 # Editor & OS files
 .DS_Store
 Thumbs.db
