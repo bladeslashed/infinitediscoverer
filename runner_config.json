@@ -1,0 +1,16 @@
+{
+  "_comment": "Configure these parameters before running main.py. Any value set here will be loaded automatically.",
+  "port": 9223,
+  "concurrency": 12,
+  "batch_size": 12,
+  "delay": 0.05,
+  "strategy": "smart",
+  "prune_threshold": 0.04,
+  "max_depth_delta": 2,
+  "catalyst_cap": 24,
+  "max_recipes": null,
+  "rate_limit_cooldown": 60,
+  "query_interval_ms": 300,
+  "cache_path": "data/recipes_cache.bin",
+  "discoveries_dir": "discoveries"
+}

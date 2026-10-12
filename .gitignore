@@ -1,0 +1,45 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.spec.bak
+*.exe
+!c_engine/fast_importer.exe
+
+# Keep C recipe engine DLL for Windows execution
+!c_engine/recipe_engine_v3.dll
+
+# C/C++ compiled objects
+*.o
+*.obj
+*.so
+*.dylib
+
+# User Data, Browser Profiles, and Cache Files
+data/profiles/
+data/*.bin
+data/*.bin.bak
+data/test_*
+discoveries/*.md
+!discoveries/.gitkeep
+!data/.gitkeep
+
+# Environment & Virtual Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,56 @@
+{
+  "general": {
+    "headless": true,
+    "master_cache_path": "data/recipes_cache.bin",
+    "discoveries_dir": "discoveries",
+    "strategy": "smart",
+    "prune_threshold": 0.04,
+    "max_depth_delta": 2,
+    "catalyst_cap": 24,
+    "auto_launch_browsers": true,
+    "auto_close_browsers_on_exit": true,
+    "auto_sync_interval_sec": 5.0,
+    "cache_auto_save_interval_sec": 20.0,
+    "dashboard_refresh_interval_sec": 0.4,
+    "memory_optimization": {
+      "enabled": true,
+      "auto_trim_working_set": true,
+      "trim_interval_sec": 30.0,
+      "disable_gpu": true,
+      "block_ad_networks": true,
+      "max_v8_heap_mb": 128
+    }
+  },
+  "browser_paths": {
+    "edge": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "opera_gx": ""
+  },
+  "instances": [
+    {
+      "id": "instance-direct",
+      "name": "Direct Connection",
+      "browser": "edge",
+      "port": 9231,
+      "user_data_dir": "data/profiles/instance_1",
+      "proxy": null,
+      "concurrency": 12,
+      "batch_size": 12,
+      "query_interval_ms": 300,
+      "rate_limit_cooldown": 60.0,
+      "enabled": true
+    },
+    {
+      "id": "instance-proxy-example",
+      "name": "Proxy Example",
+      "browser": "edge",
+      "port": 9232,
+      "user_data_dir": "data/profiles/instance_2",
+      "proxy": "http://username:password@proxy-host:port",
+      "concurrency": 12,
+      "batch_size": 12,
+      "query_interval_ms": 300,
+      "rate_limit_cooldown": 60.0,
+      "enabled": false
+    }
+  ]
+}

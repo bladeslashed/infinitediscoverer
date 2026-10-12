@@ -1,0 +1,29 @@
+{
+  "_comment": "Persistent settings file. Remembers your last-used parameters, preferences, and session statistics.",
+  "last_used_parameters": {
+    "port": 9223,
+    "concurrency": 12,
+    "batch_size": 12,
+    "delay": 0.05,
+    "strategy": "smart",
+    "prune_threshold": 0.04,
+    "max_depth_delta": 2,
+    "catalyst_cap": 24,
+    "max_recipes": null,
+    "rate_limit_cooldown": 60,
+    "query_interval_ms": 300,
+    "cache_path": "data/recipes_cache.bin",
+    "discoveries_dir": "discoveries"
+  },
+  "preferences": {
+    "auto_save_interval_sec": 25,
+    "auto_reconnect": true,
+    "auto_solve_cloudflare": true,
+    "verbose_output": true
+  },
+  "stats_summary": {
+    "last_session_time": null,
+    "total_session_runs": 0,
+    "lifetime_discoveries": 0
+  }
+}
